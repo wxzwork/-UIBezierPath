@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8152C1DC1E1DF02D0088F868 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8152C1DB1E1DF02D0088F868 /* main.m */; };
+		8152C1DF1E1DF02D0088F868 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8152C1DE1E1DF02D0088F868 /* AppDelegate.m */; };
+		8152C1E21E1DF02D0088F868 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8152C1E11E1DF02D0088F868 /* ViewController.m */; };
+		8152C1E51E1DF02E0088F868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8152C1E31E1DF02E0088F868 /* Main.storyboard */; };
+		8152C1E71E1DF02E0088F868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8152C1E61E1DF02E0088F868 /* Assets.xcassets */; };
+		8152C1EA1E1DF02E0088F868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8152C1E81E1DF02E0088F868 /* LaunchScreen.storyboard */; };
+		8152C1F51E1DF02E0088F868 /* UIBezierPath_CAShapeLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8152C1F41E1DF02E0088F868 /* UIBezierPath_CAShapeLayerTests.m */; };
+		8152C2001E1DF02E0088F868 /* UIBezierPath_CAShapeLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8152C1FF1E1DF02E0088F868 /* UIBezierPath_CAShapeLayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8152C1F11E1DF02E0088F868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8152C1CF1E1DF02D0088F868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8152C1D61E1DF02D0088F868;
+			remoteInfo = "UIBezierPath与CAShapeLayer";
+		};
+		8152C1FC1E1DF02E0088F868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8152C1CF1E1DF02D0088F868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8152C1D61E1DF02D0088F868;
+			remoteInfo = "UIBezierPath与CAShapeLayer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8152C1D71E1DF02D0088F868 /* UIBezierPath与CAShapeLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIBezierPath与CAShapeLayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8152C1DB1E1DF02D0088F868 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8152C1DD1E1DF02D0088F868 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8152C1DE1E1DF02D0088F868 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8152C1E01E1DF02D0088F868 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8152C1E11E1DF02D0088F868 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8152C1E41E1DF02E0088F868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8152C1E61E1DF02E0088F868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8152C1E91E1DF02E0088F868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8152C1EB1E1DF02E0088F868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8152C1F01E1DF02E0088F868 /* UIBezierPath与CAShapeLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIBezierPath与CAShapeLayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8152C1F41E1DF02E0088F868 /* UIBezierPath_CAShapeLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBezierPath_CAShapeLayerTests.m; sourceTree = "<group>"; };
+		8152C1F61E1DF02E0088F868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8152C1FB1E1DF02E0088F868 /* UIBezierPath与CAShapeLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIBezierPath与CAShapeLayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8152C1FF1E1DF02E0088F868 /* UIBezierPath_CAShapeLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBezierPath_CAShapeLayerUITests.m; sourceTree = "<group>"; };
+		8152C2011E1DF02E0088F868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8152C1D41E1DF02D0088F868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8152C1ED1E1DF02E0088F868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8152C1F81E1DF02E0088F868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8152C1CE1E1DF02D0088F868 = {
+			isa = PBXGroup;
+			children = (
+				8152C1D91E1DF02D0088F868 /* UIBezierPath与CAShapeLayer */,
+				8152C1F31E1DF02E0088F868 /* UIBezierPath与CAShapeLayerTests */,
+				8152C1FE1E1DF02E0088F868 /* UIBezierPath与CAShapeLayerUITests */,
+				8152C1D81E1DF02D0088F868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8152C1D81E1DF02D0088F868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8152C1D71E1DF02D0088F868 /* UIBezierPath与CAShapeLayer.app */,
+				8152C1F01E1DF02E0088F868 /* UIBezierPath与CAShapeLayerTests.xctest */,
+				8152C1FB1E1DF02E0088F868 /* UIBezierPath与CAShapeLayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8152C1D91E1DF02D0088F868 /* UIBezierPath与CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8152C1DD1E1DF02D0088F868 /* AppDelegate.h */,
+				8152C1DE1E1DF02D0088F868 /* AppDelegate.m */,
+				8152C1E01E1DF02D0088F868 /* ViewController.h */,
+				8152C1E11E1DF02D0088F868 /* ViewController.m */,
+				8152C1E31E1DF02E0088F868 /* Main.storyboard */,
+				8152C1E61E1DF02E0088F868 /* Assets.xcassets */,
+				8152C1E81E1DF02E0088F868 /* LaunchScreen.storyboard */,
+				8152C1EB1E1DF02E0088F868 /* Info.plist */,
+				8152C1DA1E1DF02D0088F868 /* Supporting Files */,
+			);
+			path = "UIBezierPath与CAShapeLayer";
+			sourceTree = "<group>";
+		};
+		8152C1DA1E1DF02D0088F868 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8152C1DB1E1DF02D0088F868 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8152C1F31E1DF02E0088F868 /* UIBezierPath与CAShapeLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8152C1F41E1DF02E0088F868 /* UIBezierPath_CAShapeLayerTests.m */,
+				8152C1F61E1DF02E0088F868 /* Info.plist */,
+			);
+			path = "UIBezierPath与CAShapeLayerTests";
+			sourceTree = "<group>";
+		};
+		8152C1FE1E1DF02E0088F868 /* UIBezierPath与CAShapeLayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8152C1FF1E1DF02E0088F868 /* UIBezierPath_CAShapeLayerUITests.m */,
+				8152C2011E1DF02E0088F868 /* Info.plist */,
+			);
+			path = "UIBezierPath与CAShapeLayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8152C1D61E1DF02D0088F868 /* UIBezierPath与CAShapeLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8152C2041E1DF02E0088F868 /* Build configuration list for PBXNativeTarget "UIBezierPath与CAShapeLayer" */;
+			buildPhases = (
+				8152C1D31E1DF02D0088F868 /* Sources */,
+				8152C1D41E1DF02D0088F868 /* Frameworks */,
+				8152C1D51E1DF02D0088F868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIBezierPath与CAShapeLayer";
+			productName = "UIBezierPath与CAShapeLayer";
+			productReference = 8152C1D71E1DF02D0088F868 /* UIBezierPath与CAShapeLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8152C1EF1E1DF02E0088F868 /* UIBezierPath与CAShapeLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8152C2071E1DF02E0088F868 /* Build configuration list for PBXNativeTarget "UIBezierPath与CAShapeLayerTests" */;
+			buildPhases = (
+				8152C1EC1E1DF02E0088F868 /* Sources */,
+				8152C1ED1E1DF02E0088F868 /* Frameworks */,
+				8152C1EE1E1DF02E0088F868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8152C1F21E1DF02E0088F868 /* PBXTargetDependency */,
+			);
+			name = "UIBezierPath与CAShapeLayerTests";
+			productName = "UIBezierPath与CAShapeLayerTests";
+			productReference = 8152C1F01E1DF02E0088F868 /* UIBezierPath与CAShapeLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8152C1FA1E1DF02E0088F868 /* UIBezierPath与CAShapeLayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8152C20A1E1DF02E0088F868 /* Build configuration list for PBXNativeTarget "UIBezierPath与CAShapeLayerUITests" */;
+			buildPhases = (
+				8152C1F71E1DF02E0088F868 /* Sources */,
+				8152C1F81E1DF02E0088F868 /* Frameworks */,
+				8152C1F91E1DF02E0088F868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8152C1FD1E1DF02E0088F868 /* PBXTargetDependency */,
+			);
+			name = "UIBezierPath与CAShapeLayerUITests";
+			productName = "UIBezierPath与CAShapeLayerUITests";
+			productReference = 8152C1FB1E1DF02E0088F868 /* UIBezierPath与CAShapeLayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8152C1CF1E1DF02D0088F868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = WOSHIPM;
+				TargetAttributes = {
+					8152C1D61E1DF02D0088F868 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8152C1EF1E1DF02E0088F868 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8152C1D61E1DF02D0088F868;
+					};
+					8152C1FA1E1DF02E0088F868 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8152C1D61E1DF02D0088F868;
+					};
+				};
+			};
+			buildConfigurationList = 8152C1D21E1DF02D0088F868 /* Build configuration list for PBXProject "UIBezierPath与CAShapeLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8152C1CE1E1DF02D0088F868;
+			productRefGroup = 8152C1D81E1DF02D0088F868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8152C1D61E1DF02D0088F868 /* UIBezierPath与CAShapeLayer */,
+				8152C1EF1E1DF02E0088F868 /* UIBezierPath与CAShapeLayerTests */,
+				8152C1FA1E1DF02E0088F868 /* UIBezierPath与CAShapeLayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8152C1D51E1DF02D0088F868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8152C1EA1E1DF02E0088F868 /* LaunchScreen.storyboard in Resources */,
+				8152C1E71E1DF02E0088F868 /* Assets.xcassets in Resources */,
+				8152C1E51E1DF02E0088F868 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8152C1EE1E1DF02E0088F868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8152C1F91E1DF02E0088F868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8152C1D31E1DF02D0088F868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8152C1E21E1DF02D0088F868 /* ViewController.m in Sources */,
+				8152C1DF1E1DF02D0088F868 /* AppDelegate.m in Sources */,
+				8152C1DC1E1DF02D0088F868 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8152C1EC1E1DF02E0088F868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8152C1F51E1DF02E0088F868 /* UIBezierPath_CAShapeLayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8152C1F71E1DF02E0088F868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8152C2001E1DF02E0088F868 /* UIBezierPath_CAShapeLayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8152C1F21E1DF02E0088F868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8152C1D61E1DF02D0088F868 /* UIBezierPath与CAShapeLayer */;
+			targetProxy = 8152C1F11E1DF02E0088F868 /* PBXContainerItemProxy */;
+		};
+		8152C1FD1E1DF02E0088F868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8152C1D61E1DF02D0088F868 /* UIBezierPath与CAShapeLayer */;
+			targetProxy = 8152C1FC1E1DF02E0088F868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8152C1E31E1DF02E0088F868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8152C1E41E1DF02E0088F868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8152C1E81E1DF02E0088F868 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8152C1E91E1DF02E0088F868 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8152C2021E1DF02E0088F868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8152C2031E1DF02E0088F868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8152C2051E1DF02E0088F868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIBezierPath与CAShapeLayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UIBezierPath-CAShapeLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8152C2061E1DF02E0088F868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIBezierPath与CAShapeLayer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UIBezierPath-CAShapeLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8152C2081E1DF02E0088F868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIBezierPath与CAShapeLayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UIBezierPath-CAShapeLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIBezierPath与CAShapeLayer.app/UIBezierPath与CAShapeLayer";
+			};
+			name = Debug;
+		};
+		8152C2091E1DF02E0088F868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIBezierPath与CAShapeLayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UIBezierPath-CAShapeLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIBezierPath与CAShapeLayer.app/UIBezierPath与CAShapeLayer";
+			};
+			name = Release;
+		};
+		8152C20B1E1DF02E0088F868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIBezierPath与CAShapeLayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UIBezierPath-CAShapeLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIBezierPath与CAShapeLayer";
+			};
+			name = Debug;
+		};
+		8152C20C1E1DF02E0088F868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIBezierPath与CAShapeLayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UIBezierPath-CAShapeLayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIBezierPath与CAShapeLayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8152C1D21E1DF02D0088F868 /* Build configuration list for PBXProject "UIBezierPath与CAShapeLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8152C2021E1DF02E0088F868 /* Debug */,
+				8152C2031E1DF02E0088F868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8152C2041E1DF02E0088F868 /* Build configuration list for PBXNativeTarget "UIBezierPath与CAShapeLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8152C2051E1DF02E0088F868 /* Debug */,
+				8152C2061E1DF02E0088F868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8152C2071E1DF02E0088F868 /* Build configuration list for PBXNativeTarget "UIBezierPath与CAShapeLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8152C2081E1DF02E0088F868 /* Debug */,
+				8152C2091E1DF02E0088F868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8152C20A1E1DF02E0088F868 /* Build configuration list for PBXNativeTarget "UIBezierPath与CAShapeLayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8152C20B1E1DF02E0088F868 /* Debug */,
+				8152C20C1E1DF02E0088F868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8152C1CF1E1DF02D0088F868 /* Project object */;
+}
