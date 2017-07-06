@@ -15,6 +15,7 @@
 		8152C1EA1E1DF02E0088F868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8152C1E81E1DF02E0088F868 /* LaunchScreen.storyboard */; };
 		8152C1F51E1DF02E0088F868 /* UIBezierPath_CAShapeLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8152C1F41E1DF02E0088F868 /* UIBezierPath_CAShapeLayerTests.m */; };
 		8152C2001E1DF02E0088F868 /* UIBezierPath_CAShapeLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8152C1FF1E1DF02E0088F868 /* UIBezierPath_CAShapeLayerUITests.m */; };
+		81C3FA741E7B728300CE9ECE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C3FA731E7B728300CE9ECE /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8152C1FB1E1DF02E0088F868 /* UIBezierPath与CAShapeLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIBezierPath与CAShapeLayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8152C1FF1E1DF02E0088F868 /* UIBezierPath_CAShapeLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBezierPath_CAShapeLayerUITests.m; sourceTree = "<group>"; };
 		8152C2011E1DF02E0088F868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C3FA721E7B728300CE9ECE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		81C3FA731E7B728300CE9ECE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8152C1DE1E1DF02D0088F868 /* AppDelegate.m */,
 				8152C1E01E1DF02D0088F868 /* ViewController.h */,
 				8152C1E11E1DF02D0088F868 /* ViewController.m */,
+				81C3FA721E7B728300CE9ECE /* SecondViewController.h */,
+				81C3FA731E7B728300CE9ECE /* SecondViewController.m */,
 				8152C1E31E1DF02E0088F868 /* Main.storyboard */,
 				8152C1E61E1DF02E0088F868 /* Assets.xcassets */,
 				8152C1E81E1DF02E0088F868 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					8152C1D61E1DF02D0088F868 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BVZZ9S8989;
 						ProvisioningStyle = Automatic;
 					};
 					8152C1EF1E1DF02E0088F868 = {
@@ -273,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C3FA741E7B728300CE9ECE /* SecondViewController.m in Sources */,
 				8152C1E21E1DF02D0088F868 /* ViewController.m in Sources */,
 				8152C1DF1E1DF02D0088F868 /* AppDelegate.m in Sources */,
 				8152C1DC1E1DF02D0088F868 /* main.m in Sources */,
@@ -424,7 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BVZZ9S8989;
 				INFOPLIST_FILE = "UIBezierPath与CAShapeLayer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UIBezierPath-CAShapeLayer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +444,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BVZZ9S8989;
 				INFOPLIST_FILE = "UIBezierPath与CAShapeLayer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WOSHIPM.UIBezierPath-CAShapeLayer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +518,7 @@
 				8152C2061E1DF02E0088F868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8152C2071E1DF02E0088F868 /* Build configuration list for PBXNativeTarget "UIBezierPath与CAShapeLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +527,7 @@
 				8152C2091E1DF02E0088F868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8152C20A1E1DF02E0088F868 /* Build configuration list for PBXNativeTarget "UIBezierPath与CAShapeLayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +536,7 @@
 				8152C20C1E1DF02E0088F868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

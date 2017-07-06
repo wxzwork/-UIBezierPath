@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8152C1D61E1DF02D0088F868"
+               BuildableName = "UIBezierPath&#x4e0e;CAShapeLayer.app"
+               BlueprintName = "UIBezierPath&#x4e0e;CAShapeLayer"
+               ReferencedContainer = "container:UIBezierPath&#x4e0e;CAShapeLayer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8152C1EF1E1DF02E0088F868"
+               BuildableName = "UIBezierPath&#x4e0e;CAShapeLayerTests.xctest"
+               BlueprintName = "UIBezierPath&#x4e0e;CAShapeLayerTests"
+               ReferencedContainer = "container:UIBezierPath&#x4e0e;CAShapeLayer.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8152C1FA1E1DF02E0088F868"
+               BuildableName = "UIBezierPath&#x4e0e;CAShapeLayerUITests.xctest"
+               BlueprintName = "UIBezierPath&#x4e0e;CAShapeLayerUITests"
+               ReferencedContainer = "container:UIBezierPath&#x4e0e;CAShapeLayer.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8152C1D61E1DF02D0088F868"
+            BuildableName = "UIBezierPath&#x4e0e;CAShapeLayer.app"
+            BlueprintName = "UIBezierPath&#x4e0e;CAShapeLayer"
+            ReferencedContainer = "container:UIBezierPath&#x4e0e;CAShapeLayer.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8152C1D61E1DF02D0088F868"
+            BuildableName = "UIBezierPath&#x4e0e;CAShapeLayer.app"
+            BlueprintName = "UIBezierPath&#x4e0e;CAShapeLayer"
+            ReferencedContainer = "container:UIBezierPath&#x4e0e;CAShapeLayer.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8152C1D61E1DF02D0088F868"
+            BuildableName = "UIBezierPath&#x4e0e;CAShapeLayer.app"
+            BlueprintName = "UIBezierPath&#x4e0e;CAShapeLayer"
+            ReferencedContainer = "container:UIBezierPath&#x4e0e;CAShapeLayer.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
